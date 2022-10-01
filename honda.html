@@ -14,7 +14,7 @@
 
 </head>
 <body>
-    
+    <!-- Componente Bootstrap 'navbar' para proporcionar enlaces de navegación con el menú.-->
     <nav class="navbar navbar-expand-lg navbar-light bg-primary position-absolute w-100">
         <div class="container">
           <a class="navbar-brand fw-bold" href="index.html">N.R | AUTOMOTORA</a>
@@ -55,7 +55,7 @@
                 <h2 class="display-4 fw-bold mb-5">El Honda CIVIC<span class="text-primary">.</span></h2>
     
                 <ul class="list-unstyled mb-0">
-                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert"> <!--Componente Bootstrap 'Alerts' con 'Dismissing' para mensajes hacia el usuario, donde este pueda leer y cerrar, con esto ultimo hace que desaparezca el cuadro de ventana y realice una transición al texto.-->
                         <strong>Seguridad!</strong> Apto para una familia.
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                       </div>
@@ -137,13 +137,13 @@
                   
       
       <footer class="footer mt-auto py-3 bg-primary text-center bg-dark">
-      
+        <!--Se usa el JavaScript con una sección de reloj a través del método 'getFullYear()' para actualizar la fecha de año actual.-->
         <div class="container">
           <span class=" text-white">Automotora N.R © <script>document.write(new Date().getFullYear())</script> </span>
         </div>
         
       </footer>
-
+<!-- Carpeta JS-->
 <script src="js/bootstrap.bundle.min.js"></script>   
 </body>
 </html>
